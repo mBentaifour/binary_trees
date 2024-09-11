@@ -58,8 +58,7 @@ avl_t *r_insert_node(avl_t **tree, avl_t *parent, avl_t **new, int nval)
  * @tree: type **pointer to the root node of the AVL tree to insert into
  * @value: value to store in the node to be inserted
  * Return: inserted node, or NULL if fails
- * use files 14-binary_tree_balance.c, 103-binary_tree_rotate_left.c,
-	104-binary_tree_rotate_right.c, 0-binary_tree_node.c
+ * use files 14-binary_tree_balance 103-binary_tree_rotate_left.c
  */
 
 avl_t *avl_insert(avl_t **tree, int value)
